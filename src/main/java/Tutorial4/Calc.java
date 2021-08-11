@@ -5,6 +5,6 @@ public class Calc {
 		return FirstInt + SecondInt;
 	}
 	public int subtract(int FirstInt, int SecondInt) {
-		return FirstInt + SecondInt;
+		return FirstInt - SecondInt;
 	}
 }
