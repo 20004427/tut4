@@ -19,5 +19,12 @@ class TestCalc {
 		int num2 = 5;
 		assertEquals(calc.add(num1, num2), 10);
 	}
+	
+	@Test
+	void testSubtraction() {
+		int num1 = 5;
+		int num2 = 5;
+		assertEquals(calc.subtract(num1, num2), 0);
+	}
 
 }
